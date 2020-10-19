@@ -26,3 +26,7 @@ for (var i=0; i < order.length; i++)
 
 // Risultato
 var resul = document.getElementById('lastname');
+console.log(lastName);
+
+// La posizione "umana" della lista in cui il nuovo utente si trova
+console.log( lastName.indexOf(askLastName));
