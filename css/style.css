@@ -1,0 +1,11 @@
+/* General */
+body{
+  font-family: sans-serif;
+  background-color: rgba(255, 50, 50, 0.5);
+}
+
+/* Box */
+.box{
+  text-align: center;
+  margin-top: 30px;
+}
