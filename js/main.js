@@ -13,7 +13,7 @@ var lastName = ['Bianchi', 'Rossi', 'Duzioni', 'Balsano', 'Giorgini'];
 // Chiedere all'utente il cognome
 var askLastName = prompt('Inserisci il tuo cognome');
 
-// Inserie nell'array con altri cognomi
+// Inserire nell'array altri cognomi
 lastName.push(askLastName);
 //console.log(lastName);
 
