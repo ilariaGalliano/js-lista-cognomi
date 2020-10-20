@@ -19,14 +19,15 @@ lastName.push(askLastName);
 
 var order = lastName.sort();
 
+// Risultato
+var result = document.getElementById('lastname');
+
 for (var i=0; i < order.length; i++)
 {
-  lastname.innerHTML = lastName;
+  result.innerHTML = lastName;
 }
 
-// Risultato
-var resul = document.getElementById('lastname');
 console.log(lastName);
 
 // La posizione "umana" della lista in cui il nuovo utente si trova
-console.log( lastName.indexOf(askLastName));
+console.log( lastName.indexOf(askLastName) + 1);
